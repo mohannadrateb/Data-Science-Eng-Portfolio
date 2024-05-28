@@ -12,7 +12,11 @@ You can see that the repo is divided into 6 different  Probelm Categories: Class
 # Completed Projects
 
 - Regression problems:
-  - Housing prices problems
+  - Housing prices problems:
+    - Dealing with different ways to handle missing data, filling missing data, gaining insights, dropping unwanted features and trying different models and choosing one. In addtion, different visualizations that helps us to gain more insight about the data.
+   
+- Classification problems :
+  
     
 
 
