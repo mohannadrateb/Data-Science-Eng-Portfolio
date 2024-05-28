@@ -5,6 +5,8 @@
 I am constantly updating it with projects that tackle a specfic problem category of Machine learning.
 You can see that the repo is divided into 6 different  Probelm Categories: Classification, Deep_learning, NLP, Recomender Systems, Regression and Time series</p>
 
+<p>My Strategy is to start with simple projects that tackle all the 6 different problems categories. After that, increase complexity as i move on. That is because, i want to showcase my skills in the shortest time possible</p>
+
 # CI/CD:
 - In this repo, I wanted also to highlight my knowledge using CI/CD.
 - You will find that every project has a seperate branch, that is merged with the main branch when the project is complete.
