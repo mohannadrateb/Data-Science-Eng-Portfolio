@@ -1,7 +1,8 @@
 # Purpose of the repo:
+<p> In the past years,, I worked on alot of interesting problems and projects. However, as it is company realted problems, it is confidential and can't be viewed publicly</p>
 
 <p>The purpose of this repo, is to showcase my skills in Data science,Engineering as well as Analytics Field.
-I am constantly updating it with projects that takle a specfic problem category of Machine learning.
+I am constantly updating it with projects that tackle a specfic problem category of Machine learning.
 You can see that the repo is divided into 6 different  Probelm Categories: Classification, Deep_learning, NLP, Recomender Systems, Regression and Time series</p>
 
 # CI/CD:
