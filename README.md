@@ -1,5 +1,5 @@
 # Purpose of the repo:
-<p> In the past years,, I worked on alot of interesting problems and projects. However, as it is company realted problems, it is confidential and can't be viewed publicly</p>
+<p> In the past years, I worked on alot of interesting problems and projects. However, as it is company realted problems, it is confidential and can't be viewed publicly. Therefore i wanted to build this portfolio</p>
 
 <p>The purpose of this repo, is to showcase my skills in Data science,Engineering as well as Analytics Field.
 I am constantly updating it with projects that tackle a specfic problem category of Machine learning.
