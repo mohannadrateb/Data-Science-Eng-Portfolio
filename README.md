@@ -20,6 +20,12 @@ You can see that the repo is divided into 6 different  Probelm Categories: Class
    
 - Classification problems
   - Music genre classification problem
+
+- NLP and LLM projects
+  - Country Info LLM
+    - Built a simple application using Langchain and streamlit. With the help of An openAI model i built an application, where you put the name of the country. It then returns info about that country, borders info and the three unique things that a typical person from that person do in a typical day.
+    - Used LLMchain, PromptTemplate, ConversationBufferMemory, SequentialChain, streamlit, OpenAI  
+      
   
     
 
