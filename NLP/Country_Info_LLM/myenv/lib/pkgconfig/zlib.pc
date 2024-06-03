@@ -1,0 +1,13 @@
+prefix=/Users/mohannadrateb/Desktop/portfolio/Port_projects/Data-Science-Eng-Portfolio/NLP/Country_Info_LLM/myenv
+exec_prefix=/Users/mohannadrateb/Desktop/portfolio/Port_projects/Data-Science-Eng-Portfolio/NLP/Country_Info_LLM/myenv
+libdir=/Users/mohannadrateb/Desktop/portfolio/Port_projects/Data-Science-Eng-Portfolio/NLP/Country_Info_LLM/myenv/lib
+sharedlibdir=/Users/mohannadrateb/Desktop/portfolio/Port_projects/Data-Science-Eng-Portfolio/NLP/Country_Info_LLM/myenv/lib
+includedir=/Users/mohannadrateb/Desktop/portfolio/Port_projects/Data-Science-Eng-Portfolio/NLP/Country_Info_LLM/myenv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

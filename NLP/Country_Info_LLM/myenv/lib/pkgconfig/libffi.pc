@@ -1,0 +1,11 @@
+prefix=/Users/mohannadrateb/Desktop/portfolio/Port_projects/Data-Science-Eng-Portfolio/NLP/Country_Info_LLM/myenv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/mohannadrateb/Desktop/portfolio/Port_projects/Data-Science-Eng-Portfolio/NLP/Country_Info_LLM/myenv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.4
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}
