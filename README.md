@@ -30,7 +30,16 @@ You can see that the repo is divided into 6 different  Probelm Categories: Class
     - The data is read using the SimpleDirectoryReader, converted into indicies using the VectorStoreIndex
     - A query engine is setup using a VectorIndexRetriver,SimilarityPostProcessor
     - The indices are stored on the harddisk using the StorageContext
-    - The different results are showed using pprint_response 
+    - The different results are showed using pprint_response
+- Recommender Systems
+    - Movie Recommender System
+      - Built a simple movie recommender system, using the 2 types
+        - First type is using Callobrative filtering
+        - Second type is using content baseed filtering
+      - Callobrative Filtering
+          - used NearestNeighbors model as well as a pivot_table in the form of dataframe, where the index is the title and the columsn are the users and the values are different ratings to compute different distances based on cosine similarity matrix and recommend based on that
+     - Content baseed filtering
+       - used the TfidfVectorizer as well as sigmoid_kernel to compare similarties between summaries of different movies and recommend based on that
      
       
   
