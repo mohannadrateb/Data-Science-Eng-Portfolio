@@ -46,7 +46,9 @@ You can see that the repo is divided into 6 different  Probelm Categories: Class
 
 - Docker:
   - Simple App:
-      - Created a simple flask application, where i explored docker. In it i create a docker image, build it, push it, and pull images from the docker hub. In this app, a file with the tile "Docker.pdf" is a summary of the different commands and explanation of dockers. Difference between an image and container, advantages and disadvantages of docker compared to VM, different commands as well as the concept of docker compose as well as docker volumes are stated in this pdf.     
+      - Created a simple flask application, where i explored docker. In it i create a docker image, build it, push it, and pull images from the docker hub. In this app, a file with the tile "Docker.pdf" is a summary of the different commands and explanation of dockers. Difference between an image and container, advantages and disadvantages of docker compared to VM, different commands as well as the concept of docker compose as well as docker volumes are stated in this pdf.
+   
+-MLFLOW:  
      
       
   
