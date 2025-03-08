@@ -1,0 +1,20 @@
+[32m2025-03-07 16:29:47 +0200[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 24364596-c0c2-487e-b8c2-6b510cf86669 - 50752 - LOGS_CAPTURED - Started capturing logs in process (pid: 50752).
+[32m2025-03-07 16:29:48 +0200[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 24364596-c0c2-487e-b8c2-6b510cf86669 - 50752 - taxi_zones - STEP_START - Started execution of step "taxi_zones".
+[32m2025-03-07 16:29:48 +0200[0m - dagster - [34mERROR[0m - [31m__ASSET_JOB - 24364596-c0c2-487e-b8c2-6b510cf86669 - 50752 - taxi_zones - STEP_FAILURE - Execution of step "taxi_zones" failed.
+
+dagster._core.errors.DagsterExecutionStepExecutionError: Error occurred while executing op "taxi_zones"::
+
+duckdb.duckdb.IOException: IO Error: No files found that match the pattern "data/raw/taxi_zones_file.parquet"
+
+Stack Trace:
+  File "/Users/mohannadrateb/Desktop/portfolio/Port_projects/Data-Science-Eng-Portfolio/dagster/dagster_env/lib/python3.10/site-packages/dagster/_core/execution/plan/utils.py", line 56, in op_execution_error_boundary
+    yield
+  File "/Users/mohannadrateb/Desktop/portfolio/Port_projects/Data-Science-Eng-Portfolio/dagster/dagster_env/lib/python3.10/site-packages/dagster/_utils/__init__.py", line 480, in iterate_with_context
+    next_output = next(iterator)
+  File "/Users/mohannadrateb/Desktop/portfolio/Port_projects/Data-Science-Eng-Portfolio/dagster/dagster_env/lib/python3.10/site-packages/dagster/_core/execution/plan/compute_generator.py", line 127, in _coerce_op_compute_fn_to_iterator
+    result = invoke_compute_fn(
+  File "/Users/mohannadrateb/Desktop/portfolio/Port_projects/Data-Science-Eng-Portfolio/dagster/dagster_env/lib/python3.10/site-packages/dagster/_core/execution/plan/compute_generator.py", line 115, in invoke_compute_fn
+    return fn(context, **args_to_pass) if context_arg_provided else fn(**args_to_pass)
+  File "/Users/mohannadrateb/Desktop/portfolio/Port_projects/Data-Science-Eng-Portfolio/dagster/dagster_university/dagster_university/assets/trips.py", line 61, in taxi_zones
+    conn.execute(query)
+[0m
