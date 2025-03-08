@@ -1,0 +1,12 @@
+dagster_env/
+dagster_university/tmp*
+dagster_university/.env
+dagster_university/dagster_university/__pycache__/__init__.cpython-310.pyc
+dagster_university/dagster_university/assets/__pycache__/__init__.cpython-310.pyc
+dagster_university/dagster_university/assets/__pycache__/constants.cpython-310.pyc
+dagster_university/dagster_university/assets/__pycache__/metrics.cpython-310.pyc
+dagster_university/dagster_university/assets/__pycache__/trips.cpython-310.pyc
+
+
+
+
